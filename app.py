@@ -94,7 +94,7 @@ scatter_chart = px.scatter(
     x="weight",
     y="mpg",
     color="origin_name",
-    hover_data=["horsepower", "model_year", "cylinders", "name"],
+    hover_data=["horsepower", "year"],
     title="Vehicle Weight and Fuel Efficiency",
     labels={
         "weight": "Weight (lb)",
