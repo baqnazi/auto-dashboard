@@ -147,7 +147,7 @@ with st.expander("Show the filtered data"):
     display_data = filtered[
         [
             "mpg", "cylinders", "displacement", "horsepower",
-            "weight", "acceleration", "model_year", "origin_name", "name"
+            "weight", "acceleration", "model_year", "origin_name"
         ]
     ].rename(columns={"origin_name": "origin", "model_year": "model year"})
 
